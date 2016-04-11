@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+
+script:
+  - curl -L https://raw.githubusercontent.com/experimental-platform/build-scripts/master/buildimg.sh | bash
